@@ -1,0 +1,132 @@
+#input {
+    
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+body {
+    background-color: #121212;
+    color: white;
+}
+#responsive-menu {
+    background-color: whitesmoke;
+}
+#dropdown-menu {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+#dropdown-menu button {
+    font-weight: bold;
+    outline: none;
+
+}
+
+.header1 {
+    text-align: center;
+    font-family: 'Black Ops One';
+    margin-top: 10px;
+}
+
+.single-h1, .single-h2 {
+  font-size: 38px;
+  text-align: center;
+  font-family: 'Black Ops One';
+  margin-top: 10px;
+}
+
+.single-h2 {
+  font-size: 26px;
+  margin-top: 0;
+}
+
+#results-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+/* const divider = $(`<div class="card-divider card-header"></div>`);
+const companyName = $(`<p class="company-name"> ${stock.companyName}</p>`);
+const stockPrice = $(`<p class="stock-price"> ${stock.price}</p>`);
+const stockChangesPercentage = $(`<p class="stock-changes-percentage"> ${stock.changesPercentage}</p>`);
+const stockSymbol = $(`<p class="stock-symbol"> ${stock.ticker}</p>`);
+const stockImage = $(`<img class="stock-image"></img>`); */
+
+.stock-card {
+  width: 275px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.company-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.stock-details {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: grey;
+}
+
+.positive-change {
+    color: greenyellow;
+}
+
+.negative-change {
+    color: red;
+}
+
+#news-list {
+    text-align: left;
+    color: whitesmoke;
+    
+}
+#news-list a {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#fetch-news-button {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid whitesmoke;
+    padding: 4px;
+    
+}
+#fetch-news-button:hover{
+    background-color: whitesmoke;
+    color: #121212;   
+}
